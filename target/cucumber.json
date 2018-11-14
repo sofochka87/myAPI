@@ -1,0 +1,33 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Post an Employee and Verify in UI",
+        "description": "",
+        "id": "employee-rest-api-requests;post-an-employee-and-verify-in-ui",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 17,
+            "name": "Content type and Accept type is JSON",
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiPost"
+          }
+        ]
+      }
+    ],
+    "name": "Employee REST Api requests",
+    "description": "",
+    "id": "employee-rest-api-requests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/api/features/PostThenGet.feature",
+    "tags": []
+  }
+]
